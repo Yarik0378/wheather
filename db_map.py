@@ -1,6 +1,7 @@
 import telebot
 import pyowm
 
+token = "803748679:AAFPbtZ_0sD94wpyH2-X7MSd77WLdsAgNzo"
 bot = telebot.TeleBot(token)
 # observation = owm.weather_at_place(message.text)
 owm = pyowm.OWM('681470a570d9bac8906681a35c08ce1d', language="ua")
